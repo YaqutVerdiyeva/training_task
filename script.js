@@ -1,7 +1,7 @@
 let addBtn = document.querySelector(".add-btn");
 let nameInput = document.querySelector(".add-name");
 let priceInput = document.querySelector(".add-price");
-let products = JSON.parse(localStorage.getItem("products"));
+let products = JSON.parse(localStorage.getItem("products")) || [];
 let productsList = document.querySelector(".products-list");
 let count = document.querySelector(".count");
 let price = document.querySelector(".price");
