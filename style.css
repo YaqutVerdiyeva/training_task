@@ -80,3 +80,8 @@ body {
   color: #91da7d;
   font-size: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .products-section {
+    width: 90%;
+  }
+}
